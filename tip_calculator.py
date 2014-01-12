@@ -1,7 +1,8 @@
 __author__ = 'Andreas'
-meal = float(10)
-tax = float(12)
-tip = float(5)
+
+meal = float(raw_input("How much is the base cost of your meal?"))
+tax = float(raw_input("What is the tax rate?"))
+tip = float(raw_input("What tip do you want to give?"))
 
 tax_value = meal * (tax/100)
 meal_with_tax  = meal + tax_value
